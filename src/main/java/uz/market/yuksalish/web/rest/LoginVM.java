@@ -7,4 +7,5 @@ public class LoginVM {
 
     private String username;
     private String password;
+    private boolean rememberMe;
 }

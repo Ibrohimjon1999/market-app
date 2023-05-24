@@ -27,4 +27,5 @@ public class User implements Serializable {
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
             inverseJoinColumns = {@JoinColumn(name = "role_name", referencedColumnName = "name")})
     private Set<Role> roles = new HashSet<>();
+
 }
